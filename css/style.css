@@ -37,6 +37,10 @@ h1,h2,h3,h4,h5,h6{
      font-family: 'Montserrat-Regular';
    font-weight:700;
 
+}
+.info{
+	font-style: italic;
+	font-family: cursive;
 }	
 p{
 	margin:0;
