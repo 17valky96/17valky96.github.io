@@ -639,7 +639,8 @@ h5.inner.two a {
     font-weight:400;
     text-transform: none;
     font-size: 1.1em;
-	    line-height: 1.7em;
+		line-height: 1.7em;
+		right: 10px;
 }
 .td-post-date.two, .td-post-date.two a {
         color: #777;
@@ -1795,7 +1796,8 @@ ul.bottom i {
 		width: 95%;
 	}
 	h5.inner.two a {
-    font-size: 0.9em;
+	font-size: 0.9em;
+	right: 10px;
 	}
 	.general-text p,.top-text p,ul.bottom li,.about-content p,p.sub,.response-text-right p {
        font-size: 0.85em;
