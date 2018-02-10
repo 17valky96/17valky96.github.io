@@ -531,7 +531,7 @@ ul.side-icons li a.twitt{
 ul.side-icons li a.goog{
  background:url('../images/icons.png') no-repeat -52px 0px;
 }
-ul.side-icons li a.drib{
+ul.side-icons li a.insta{
  background:url('../images/icons.png') no-repeat -78px 0px;
 }
 /*--about--*/
@@ -667,6 +667,7 @@ h5.inner.two a {
 p.nam {
 	width: 100%;
 	margin: 1em 0 2em 0;
+	font-style: italic;
 }
 .more a {
       font-size: 15px;
