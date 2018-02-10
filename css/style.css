@@ -826,6 +826,11 @@ a.store:hover{
     padding: 1em;
     background-color: #eee;
 }
+/*--about--*/
+.escue{
+	font-style: italic;
+	font-family: cursive;s
+}
 /*-- contact --*/
 .contact{
 	    background: #fff;
