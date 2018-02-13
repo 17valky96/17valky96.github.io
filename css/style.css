@@ -162,7 +162,7 @@ ul.top-nag  a.active{
 		background-color: #f26649;
 		width: 15%;
 	     padding: 3em 1em 95.6em 1em;
-		   position:absolute;
+		 height: initial;
 }
 .top-nav.contact{
        float: left;
@@ -539,7 +539,7 @@ ul.side-icons li a.drib{
 h3.tittle {
     color: #333;
     font-size: 2em;
-	text-align:left;
+	
 	margin-bottom:0.8em;
 }
 h3.tittle i {
@@ -614,7 +614,8 @@ h3.tittle.media {
     font-size: 0.9em;
     font-weight: 400;
     line-height: 1.9em;
-    color: #777;
+	color: #777;
+	text-align: justify;
 }
 .general-text.two {
     margin-top: 1em;
@@ -698,7 +699,10 @@ p.nam {
 /*--gallery--*/
 .gallery-section {
     padding: 3em 3em;
-    text-align: center;
+	
+	align-content: initial;
+	width: 120%; 
+	height: 120%;
 }
 .grid {
 	padding: 20px 20px 100px 20px;
@@ -830,7 +834,7 @@ a.store:hover{
 /*--about--*/
 .escue{
 	font-style: italic;
-	font-family: cursive;
+	font-family: fantasy;
 	margin-left: 10px;
 }
 /*-- contact --*/
@@ -1414,7 +1418,7 @@ p.reply i{
 }
 /*--footer--*/
 .footer {
-	height: 4cm;
+	height: 5cm;
     background-color: rgb(12, 12, 12);
 }
 .footer-grid h4 {
@@ -1483,7 +1487,7 @@ ul.bottom i {
 	.top-nav.about {
 		float: left;
 		background-color: #f26649;
-		width: 15%;
+		width: 20%;
 		padding: 3em 1em 91.4em 1em;
 	}
 	.top-nav.contact {
@@ -2698,6 +2702,7 @@ ul.bottom i {
 	}
 	h3.tittle {
 		font-size: 1.6em;
+		
 	}
 	.callbacks_tabs a:after {
 		width: 11px;
@@ -2955,6 +2960,7 @@ ul.bottom i {
 	}
 	h3.tittle {
 		font-size: 1.6em;
+	
 	}
 	.callbacks_tabs a:after {
 		width: 11px;
